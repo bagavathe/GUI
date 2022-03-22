@@ -53,4 +53,4 @@ jobs:
           app-name: 'mdi-angular-app'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_02A9EAD4440B4AE2B55354B9A98D6FC1 }}
-          package: ./dist/hello-world-app
+          package: ./dist/angular-hello-world
